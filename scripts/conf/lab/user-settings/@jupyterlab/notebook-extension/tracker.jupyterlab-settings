@@ -1,0 +1,25 @@
+{
+  // Notebook
+  // @jupyterlab/notebook-extension:tracker
+  // Notebook settings.
+  // **************************************
+
+  // The maximum number of output cells to be rendered in the output area.
+  // Defines the maximum number of output cells to be rendered in the output area for cells with many outputs. The output area will have a head and the remaining outputs will be trimmed and not displayed unless the user clicks on the information message. Set to 0 to have the complete display.
+  "maxNumberOutputs": 700,
+
+  // Code Cell Configuration
+  // The configuration for all code cells; it will override the CodeMirror default configuration.
+  "codeCellConfig": {
+    // PEP-8 requirements:
+    // - 79 characters: General line limit.
+    // - 72 characters: Limit for comments/docstrings.
+    // - 99 characters: Optional line limit for agreeable teams, keeping 72 for comments/docstrings.
+    // - 79 characters: Standard limit in Python's standard library, 72 for comments/docstrings.
+    "rulers": [
+      72,
+      79,
+      99
+    ]
+  }
+}
