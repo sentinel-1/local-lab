@@ -41,7 +41,7 @@ This repository is designed to streamline the setup and usage of a local Jupyter
 3. **Copy the Batch File**: Copy the `start_jupyter_lab.bat` file from the `local-lab/example` directory into your project's root directory. 
 4. **Edit the Batch File**: The `start_jupyter_lab.bat` file, now in your project's root directory, contains several variables that may need to be adjusted:
    - `WORKING_DIR`: This variable defaults to "/working". It should be set to the name of the directory where you do your work, i.e., the directory that contains your Jupyter Notebook files (.ipynb files). The default value assumes a directory named "working" inside the root directory of your project.
-   - `VENV_DIR`: This variable defaults to ".venv", which will create a Python virtual environment in the ".venv" directory inside your project's root directory. This directory will be automatically created if it does not exist already. Typically you would not need to change it. Still, you can change this value if you want the virtual environment to be created somewhere else.
+   - `VENV_DIR`: This variable defaults to ".venv", which will create a Python virtual environment in the ".venv" directory inside your project's root directory. This directory will be automatically created if it does not exist already. Typically, you would not need to change it. Still, you can change this value if you want the virtual environment to be created somewhere else.
    - `REQUIREMENTS_FILE`: This variable defaults to "requirements-dev.txt". This is the file from which Python packages will be installed into the virtual environment. If your project has a different requirements file, you should change this variable to match that filename.
 5. **Run the Batch File**: Once the above steps are complete, you can run the `start_jupyter_lab.bat` file from your project's root directory. This will set up and start a local Jupyter Lab instance.
 
@@ -98,7 +98,7 @@ If you have a suggestion or want to contribute, please follow these steps (while
 
 1. **Fork** the project.
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some fmazing feature or fix'`).
+3. Commit your changes (`git commit -m 'Add some amazing feature or fix'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a **pull request**.
 
@@ -129,10 +129,10 @@ Please remember that keeping this project relatively simple and minimalistic ove
 
 ## Changelog
 
-| Date | Version | Changed by | Change Description |
-|--------|:-------:|:-----------|:-----------------|
-| 2023-06-28 | v1.0 | [Sentinel-1] | First Release |
-| 2023-06-29 | v1.1 | [Sentinel-1] | Added README.md content |
+| Date       | Version | Changed by   | Change Description      |
+|------------|:-------:|:-------------|:------------------------|
+| 2023-06-28 |  v1.0   | [Sentinel-1] | First Release           |
+| 2023-06-29 |  v1.1   | [Sentinel-1] | Added README.md content |
 
 
 ## License
