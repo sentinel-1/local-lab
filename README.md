@@ -38,7 +38,7 @@ To use this project, you will need:
 This repository is designed to streamline the setup and usage of a local Jupyter Lab environment. Here are the steps to use it:
 1. **Ensure Python is Installed**: This script requires [Python] and [pip] to be installed on your system. If you don't have Python installed, you can download it from the [official Python website][Python]. As for pip, it is often getting automatically installed in the process of installing Python, and if not, then install it as well.
 2. **Place the local-lab Files**: The files in this repository should be placed in a subdirectory of your project's root directory. You can do this by either downloading the files or by adding this repository as a submodule if you use `git`. This will create a "local-lab" folder inside your project's root directory.
-3. **Copy the Batch File**: Copy the `start_jupyter_lab.bat` file from the `local-lab/example` directory into your project's root directory. 
+3. **Copy the Batch File**: Copy the `start_jupyter_lab.bat` file from the `local-lab/examples` directory into your project's root directory. 
 4. **Edit the Batch File**: The `start_jupyter_lab.bat` file, now in your project's root directory, contains several variables that may need to be adjusted:
    - `WORKING_DIR`: This variable defaults to "/working". It should be set to the name of the directory where you do your work, i.e., the directory that contains your Jupyter Notebook files (.ipynb files). The default value assumes a directory named "working" inside the root directory of your project.
    - `VENV_DIR`: This variable defaults to ".venv", which will create a Python virtual environment in the ".venv" directory inside your project's root directory. This directory will be automatically created if it does not exist already. Typically, you would not need to change it. Still, you can change this value if you want the virtual environment to be created somewhere else.
@@ -66,8 +66,9 @@ Project Root Directory
 └───local-lab (a folder or submodule that contains files of the "local-lab")
     │   start.bat
     │
-    ├───example
+    ├───examples
     │   │   start_jupyter_lab.bat
+    │   │   ... (other example files)
     │
     ├───scripts
     │   │   _virtualenv.bat
