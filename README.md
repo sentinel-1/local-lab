@@ -134,6 +134,7 @@ Please remember that keeping this project relatively simple and minimalistic ove
 |------------|:-------:|:-------------|:------------------------|
 | 2023-06-28 |  v1.0   | [Sentinel-1] | First Release           |
 | 2023-06-29 |  v1.1   | [Sentinel-1] | Added README.md content |
+| 2023-06-29 |  v1.2   | [Sentinel-1] | Added more example files |
 
 
 ## License
