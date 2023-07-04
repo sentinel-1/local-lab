@@ -12,10 +12,13 @@
     // - 72 characters: Limit for comments/docstrings.
     // - 99 characters: Optional line limit for agreeable teams, keeping 72 for comments/docstrings.
     // - 79 characters: Standard limit in Python's standard library, 72 for comments/docstrings.
+    // Other requirements:
+    // - 120 characters: In some other coding style guidelines, it's a maximum "Hard Wrap" limit on line length.
     "rulers": [
       72,
       79,
-      99
+      99,
+      120
     ]
   }
 }
